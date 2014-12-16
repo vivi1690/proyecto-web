@@ -14,7 +14,7 @@
 		
 		<nav>
 		
-			<ul>
+			<ul class="nav nav-pills">
 				<li><a href="#banner">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#feactures">Portafolio</a></li>
@@ -24,11 +24,37 @@
 	</header>
 
 	<div id="banner">
-	<div> <h1> DESIGN YOUR IDEAS </h1></div>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/banner-2.png" alt="hero banner">
+		    </div>
+		    <div class="item">
+		      <img src="images/banner-2.png" alt="hero banner">
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
 	</div>
 
 
-	<div class="main">
+<div class="main">
 
 
 	  <section id="about">
@@ -37,117 +63,134 @@
 	  <p>Our passion is reflected in the final artwork to be delivered</p>
 	 
 
-	 <div class="info">
-
-		<div class="row">
+		<div class="info">
+		    <div class="container">
+				<div class="row">
 			<article class="col-md-4">
-				 <img src="images/heart.png"/>
-				  <h2>Passion</h2>
-				  <p>
-				    We have a lot of passion for each client, your designs and photos will have a lot of energy
-				  </p>
-				
+				<div class="row">
+					<div class="col-md-3">
+				 		<img src="images/heart.png"/>
+					</div>
+					<div class="col-md-9 col-sm-9">
+						<h2>Passion</h2>
+						<p>We have a lot of passion for each client, your designs and photos will have a lot of energy</p>
+					</div>
+				</div>
 		    </article>	
 
-		    <article class="col-md-4">	 
-				 <img src="images/creativity.png"/>
-				  <h2>Creativity</h2>
-				  <p>
-				    Each project will have a unique creativity and modern ideas. We are the perfect option for tour company
-				  </p>
+		    <article class="col-md-4 col-sm-4">
+			    <div class="row">
+					<div class="col-md-3">
+						<img src="images/creativity.png"/>
+					</div>
+					<div class="col-md-9">
+						<h2>Creativity</h2>
+						<p>Each project will have a unique creativity and modern ideas. We are the perfect option for tour company</p>
+					</div>
+				</div>	 
 			</article>	
-			<article class="col-md-4">	
-				 <img src="images/star.png"/>
-				  <h2>Quality</h2>
-				  <p>
-				    Our company is known for the excellent quality in the delivery of all kinds of projects
-				  </p>
+			<article class="col-md-4">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<img src="images/star.png"/>
+					</div>
+					<div class="col-md-9">
+						<h2>Quality</h2>
+					  	<p>Our company is known for the excellent quality in the delivery of all kinds of projects</p>
+					</div>
+				</div>
 			</article>		
 		</div>
+			</div>
+		</div>
 
 		</section>
 
-	</div>
 
 		<section id="feactures">
-		  <h1>Check out our latest works</h1>
-		  <p>These are some of our work done for our clients. In photography , web design and development</p>
+				<div class="container">
+				  <h1>Check out our latest works</h1>
+				  <p>These are some of our work done for our clients. In photography , web design and development</p>
 
-		   <div class="gallery">
+				   <div class="gallery">
 
-				<div class="row photos">
-					<article class="col-md-6">
+						<div class="row photos">
+							<article class="col-md-6">
 
-					<video id="video" width="100%"controls poster="images/video.png">
-					      <source src="http://techslides.com/demos/sample-videos/small.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-					</video>
+							<video id="video" width="100%"controls poster="images/video.png">
+							      <source src="http://techslides.com/demos/sample-videos/small.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+							</video>
 
 
-			    	</article>	
+					    	</article>	
 
-			    	<article class="col-md-6">
-						<img src="images/photo-1.png"/>
-			    	</article>	
+					    	<article class="col-md-6">
+								<img src="images/photo-1.png"/>
+					    	</article>	
+						</div>
+
+
+						<div class="row photos">
+
+					    	<article class="col-md-3">
+								<img src="images/web.png"/>
+					    	</article>	
+
+					    	<article class="col-md-3">
+								<img src="images/tiger.png"/>
+					    	</article>	
+
+					    	<article class="col-md-3">
+								<img src="images/pez.png"/>
+					    	</article>	
+
+					    	<article class="col-md-3">
+								<img src="images/iguana.png"/>
+					    	</article>
+
+						</div>
+		          </div>
 				</div>
-
-
-				<div class="row photos">
-
-			    	<article class="col-md-3">
-						<img src="images/web.png"/>
-			    	</article>	
-
-			    	<article class="col-md-3">
-						<img src="images/tiger.png"/>
-			    	</article>	
-
-			    	<article class="col-md-3">
-						<img src="images/pez.png"/>
-			    	</article>	
-
-			    	<article class="col-md-3">
-						<img src="images/iguana.png"/>
-			    	</article>
-
-				</div>
-
-		</div>
-		 </section>
-
-		 <section id="contact">
-
-		 <h2> Contact Us </h2>
-
-			<form role="form">
-				<div class="form-group">
-					<label for="name">Name</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Carlos Perez">
-				</div>
-				<div class="form-group">
-					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="cperez@hotmail.com">
-				</div>
-
-				<div class="form-group">
-				<label for="message">Message</label><br>
-				<textarea type="website" class="form-control" name="message" id="message"> </textarea>
-				</div>				
-				
-				<input  type="submit" val="send">
-			</form>
-
 		</section>
 
-		
+		<section id="contact">
+			<div class="container">
+		      <div class="row">
+		        <div class="col-md-8 col-md-offset-2">
+				 <h2> Contact Us </h2>
 
-	</div>
+					<form role="form">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Carlos Perez">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="cperez@hotmail.com">
+						</div>
+
+						<div class="form-group">
+						<label for="message">Message</label><br>
+						<textarea type="website" class="form-control" name="message" id="message"> </textarea>
+						</div>				
+						
+						<input type="submit" val="send">
+					</form>
+		        </div>
+		      </div>
+		  </div>
+		</section>
+				
+
+    </div>
 
 
 
 	<footer>
 	<p>2014 copyright: VIVAGO</p>			
-		<nav>	
-			<ul>
+		<nav>
+		
+			<ul class="nav nav-pills">
 				<li><a href="#banner">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#feactures">Portafolio</a></li>
